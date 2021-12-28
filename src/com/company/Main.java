@@ -87,7 +87,7 @@ public class Main {
 
             number_count = Url_JsonUtils.parseCountAPIJson(resultJson);
 
-            //Дальше идет проверка фамилии и имени, если идет совпадение из класса Student и из Vk.api,
+            //Дальше идет проверка фамилии и имени, если идет совпадение из класса Human и из Vk.api,
             // то происходит добавление информации про этого человека уже в класс Student
             //Затем вся информация попадает прямиков в БД
             for (JSONObject jsonObject : s) {
